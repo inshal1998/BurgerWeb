@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #F6F0EB;
@@ -22,8 +26,7 @@ header {
 }
 
 .logo img{
-    width: 60px;
-    height: 60px
+    width: 50px;
 }
 
 nav a {
@@ -31,4 +34,48 @@ nav a {
     font-weight: 700;
     font-size: 20px;
     margin: 0 15px;
+}
+
+img {
+    width: 100%;
+}
+
+main {
+    padding: 0 24px;
+}
+
+.hero-section {
+    margin-top: 100px;
+}
+.hero-container {
+    margin: 0 auto;
+    max-width: 1290px;
+}
+
+.hero-container p {
+    color: #492118;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.section {
+    margin-top: 40px;
+}
+
+.section {
+    margin-top: 120px
+}
+
+.banner-container {
+    margin: 0 auto;
+    max-width: 850px;
+}
+
+.banner-container h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #492118;
+    margin: 20px 0px;
+    text-align: center;
 }
